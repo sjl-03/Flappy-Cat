@@ -21,6 +21,11 @@ public class LogicScript : MonoBehaviour
         SceneManager.LoadScene(SceneManager.GetActiveScene().name);
     }
 
+    public void titleScreen()
+    {
+        SceneManager.LoadScene("TitleScreen");
+    }
+
     public void gameOver()
     {
         isGameOver = true;
